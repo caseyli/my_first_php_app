@@ -1,0 +1,10 @@
+2014-02-25 22:43:53 Error: Fatal Error (4): syntax error, unexpected 'public' (T_PUBLIC) in [/Users/caseyli/dev/php_projects/my_first_php_app/app/Controller/AppController.php, line 24]
+2014-02-25 22:43:53 Error: [FatalErrorException] syntax error, unexpected 'public' (T_PUBLIC)
+Request URL: /
+Stack Trace:
+#0 /Users/caseyli/dev/php_projects/my_first_php_app/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/caseyli/...', 24)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/caseyli/...', 24, Array)
+#2 /Users/caseyli/dev/php_projects/my_first_php_app/lib/Cake/Core/App.php(929): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/caseyli/...', 24, Array)
+#3 /Users/caseyli/dev/php_projects/my_first_php_app/lib/Cake/Core/App.php(902): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
